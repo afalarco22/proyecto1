@@ -1,0 +1,68 @@
+.contenedor {
+    display: grid;
+    grid-template-areas:
+    "img1 contenido1 aside"
+    "img2 contenido2 aside"
+    "img3 contenido3 aside"
+    "footer footer aside"
+    
+    ;
+
+    grid-template-rows: 1fr 1fr 1fr 50px; 
+    grid-template-columns: 1fr 1fr 200px;
+ 
+}
+
+.contenedor_banda1 {
+    border: 1px solid black;
+    margin: 10px 30px 10px 30px;
+    grid-area: img1;
+    transform: rotate(15deg)
+}
+.contendo_descripcion1 {
+    margin: 10px 30px 10px 0px;
+    grid-area: contenido1;
+
+}
+
+
+
+.contenedor_banda2 {
+    border: 1px solid black;
+    margin: 10px 30px 10px 30px;
+    grid-area: img2;
+    transform: rotate(-15deg)
+
+}
+
+.contendo_descripcion2 {
+    margin: 10px 30px 10px 10px;
+    grid-area: contenido2;
+
+}
+
+
+.contenedor_banda3 {
+    border: 1px solid black;
+    margin: 10px 30px 10px 30px;
+    grid-area: img3 ;
+    transform: rotate(15deg)
+
+}
+
+.contendo_descripcion3 {
+    margin: 10px 30px 10px 10px;
+    grid-area: contenido3;
+
+}
+
+
+.contenedor_informacion {
+    background:skyblue skyblue;
+    margin: 10px 30px 10px 10px;
+    grid-area: aside;
+}
+
+.contenedor p {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/390/570/non_2x/musical-notes-on-white-background-free-vector.jpg");
+}

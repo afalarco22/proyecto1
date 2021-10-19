@@ -1,0 +1,187 @@
+* {
+    font-family: cursive;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("../img/canva-espiralado-estrellas-y-espacio-video-fondo-virtual-para-zoom-dofNJvUP6TE.jpg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position-x: center;
+    height: 100vh;
+    margin: auto;
+    overflow: auto;
+}
+
+.container {
+    width: 100%;
+    height: 60%;
+    display: flex; /*todas las etiquetas sean flexibles y poderlas mover como quiera*/
+
+
+}
+
+.container-header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1);
+
+
+}
+
+header {
+    position: absolute;
+    display: flex;
+    height: 50%;
+    width: 99%;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;
+    display: block; /*Bloquea lo que hay dentro en una posición fija*/
+    text-align: center;
+}
+
+.logo img {
+    height: inherit;
+
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: black;
+    padding: 7px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    border-radius: 20px;
+}
+
+.menu li a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.menu {
+    width: 75%;
+    text-align: center;
+    align-self: center;
+}
+
+.background {
+    width: 100%;
+    height: 65%;
+
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    width: 45%;
+}
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 300px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -2%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    transition: 0.6s ease;
+
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev :hover, .next :hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin: 0px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+
+}
+
+.active, .dot:hover {
+    background-color: #717171
+
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+}
+
+footer {
+    background-image: linear-gradient(green, white);
+}
+

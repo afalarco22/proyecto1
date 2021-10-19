@@ -1,0 +1,20 @@
+.tituloHistoria {
+    color: rebeccapurple;
+    font-size: 40px;
+    width: 300px;
+    padding: 30px 50px 30px 50px;
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-notas-musicales_23-2147634348.jpg"); /*Imagen de fondo*/
+}
+
+.div1 {
+    color: tomato;
+    font-family: cursive;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid blue;
+    margin: 20px;
+    display: inline-block;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/390/570/non_2x/musical-notes-on-white-background-free-vector.jpg");
+}
